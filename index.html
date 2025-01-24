@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Inicio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Lora:ital,wght@0,400..700;1,400..700&family=Macondo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+    <link rel="shortcut icon" href=" /imagenes/logo-sergio.svg" type="image/x-icon">
+</head>
+<body>
+    <div class="container-fluid">
+      <header class="row position-sticky sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-light col-12 letra-com">
+          <a class="navbar-brand" href="#">
+            <img src="/imagenes/logo-sergio.svg" width="80" height="80" class="d-inline-block align-top" alt="">
+          </a>
+          <a id="enlace-marca" class="d-none nav-link font-weight-bold" href="#"><span class="letraVerde">AFRI</span><span class="letraRoja">TRIP</span></a>
+          <a class="nav-link d-none d-md-block  d-lg-none   d-lg-none text-dark" href="#inicio">Descubre</a>
+          <div class="active dropdown d-none d-md-block  d-lg-none">
+            <a class="nav-link dropdown-toggle text-dark"  href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+              Secciones
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#fauna">Fauna</a>
+              <a class="dropdown-item" href="#tribus">Tribus</a>
+              <a class="dropdown-item" href="#safaris">Safaris</a>
+            </div>
+          </div>
+          <a class="nav-link d-none d-md-block  d-lg-none text-dark" href="#viajes">Viajar <span class="sr-only">(current)</span></a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+            <a class="navbar-brand font-weight-bold" href="#"><span class="letraVerde">AFRI</span><span class="letraRoja">TRIP</span></a>
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+              <li class="nav-item active">
+                <a class="nav-link" href="#inicio">Descubre</a>
+              </li>
+              <li class="nav-item active dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+                  Secciones
+                </a>
+                <div class="dropdown-menu col-1">
+                  <a class="dropdown-item" href="#fauna">Fauna</a>
+                  <a class="dropdown-item" href="#tribus">Tribus</a>
+                  <a class="dropdown-item" href="#safaris">Safaris</a>
+                  <a class="dropdown-item" href="#viajes">Viajes</a>
+                </div>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#viajes">Viajar <span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+              <input id="inputSearch" class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Search">
+              <button id="btn-buscar" class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+      </header>
+
+      <main class="row">
+        <section class="bienvenida col-12">
+          <div class="row margen-bienvenida">
+            <div class="col-12 my-4 text-center">
+              <h1 class="fuente-grande font-weight-bold agu-display cinzel"><span class="letraVerde">AFRI</span><span class="letraRoja">TRIP</span></h1>
+            </div>
+            <div class="col-12 my-md-5 font-weight-bold">
+              <div class="row">
+                <div class="col-12 text-center fuente-mediana letra-bienV ">
+                  <p>¿Buscas realizar una aventura llena de emociones?</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 text-center fuente-mediana letra-bienV">
+                  <p>¿Conocer culturas casi desconocidas?</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 text-center fuente-mediana letra-bienV">
+                  <p>¿Estar en contacto con majestuosos animales?</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12 text-center fuente-mediana letra-bienV">
+                  <p>¡No dudes más y da rienda suelta a tu vena aventurera! </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row margen-boton-bienvenida">
+            <div class="col-12 d-flex flex-column mt-3">
+              <a id="btn-explorar" class="btn btn-primary border border-warning rounded align-self-center fuente-mediana letra-com p-4 my-5" href="#inicio">EXPLORAR</a>
+            </div>
+          </div>
+        </section>
+
+        <div class="col-8 offset-2  mt-5 mb-n5">
+          <hr>
+        </div>
+
+        <section class="col-12">
+          <div class="row">
+            <article id="inicio" class="col-12">
+              <div id="carouselExampleFade" class="carousel slide carousel-fade mt-5 pt-5" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/imagenes/carousel/1.webp" class="d-block w-100" alt="afri-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagenes/carousel/2.webp" class="d-block w-100" alt="afri-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/imagenes/carousel/3.webp" class="d-block w-100" alt="afri-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-target="#carouselExampleFade" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-target="#carouselExampleFade" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </button>
+              </div>
+            </article>
+            <article class="col-12 px-4 py-2">
+              <div class="row">
+                <h2 class="col-12 my-3 display-4 text-center macondo-regular">ÁFRICA</h2>
+                <div class="col-12 col-xl-10 offset-xl-1 px-4   px-md-5 py-2  justif">
+                  <p>Un continente lleno de magia y misterio, te invita a explorar su diversidad única. Desde las vastas extensiones de sus paisajes naturales hasta la riqueza de sus culturas ancestrales, cada rincón ofrece una experiencia inolvidable. Ya sea que te atraigan las impresionantes vistas, el encuentro con tribus tradicionales o la emoción de un safari en la naturaleza, África tiene algo para todos. Un viaje por África no es solo una aventura, es una inmersión en la esencia misma del continente. ¡Descubre África y déjate sorprender!</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-12">
+              <div class="embed-responsive embed-responsive-21by9">
+              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/w4y3lLrqlTQ" allowfullscreen></iframe>
+            </article>
+          </div>
+        </section>
+
+        <div class="col-8 offset-2 mt-5 mb-n5">
+          <hr>
+        </div>
+
+        <section id="fauna" class="col-12">
+          <div class="row">
+            <article  class="col-12 ">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="my-3 display-4 text-center mt-5 pt-5 macondo-regular">FAUNA</h2>
+                </div>
+                <div class="col-12 col-xl-10 offset-xl-1 px-4 px-md-5 py-2 justif">
+                  <p>África es un continente conocido por su riqueza en biodiversidad y hogar de algunas de las especies más emblemáticas del mundo. Entre ellas destacan el león, el elefante africano, el rinoceronte y el búfalo africano, cuatro de los famosos "Cuatro Grandes". Estos animales no solo simbolizan la grandeza de la fauna africana, sino que también atraen a millones de personas interesadas en admirarlos en su entorno natural.
+  
+                    Explorar la vida salvaje africana permite disfrutar de la majestuosidad de estos animales y experimentar una conexión única con la naturaleza. Observarlos en su hábitat, interactuando y viviendo en libertad, es una experiencia incomparable que resalta la importancia de preservar estos ecosistemas únicos. África ofrece la oportunidad de sumergirse en un mundo donde la vida silvestre y la naturaleza se entrelazan de manera asombrosa, mostrando la belleza y fragilidad de su biodiversidad.</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cards en vertical, visibles hasta el tamaño de tablet inclusive. -->
+            <article class="col-10 col-md-5 col-lg-4 offset-1 offset-md-1 d-lg-none ">
+              <div class="card bg-light  mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/fauna/bufalo.webp" alt="bufalo">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Búfalo</h5>
+                  <p class="card-text ">Un herbívoro corpulento y social, famoso por su carácter impredecible y por formar grandes manadas que cooperan para defenderse de los depredadores.</p>
+                  <p>Su comportamiento cooperativo incluye "votaciones". Antes de moverse, las hembras de una manada se levantan y miran en la dirección en la que prefieren ir, decidiendo colectivamente su próximo destino.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 offset-1 offset-md-0 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/fauna/elefante.webp" alt="elefante">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Elefante</h5>
+                  <p class="card-text">El mamífero terrestre más grande del mundo, reconocido por su inteligencia, memoria y sus características orejas grandes en forma de mapa de África.</p>
+                  <p>	Sus colmillos están compuestos de marfil y crecen durante toda su vida. Además, pueden usar su trompa, con más de 40,000 músculos, para realizar tareas delicadas como pelar frutas.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10  col-md-5 offset-1 offset-md-1 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/fauna/leon.webp" alt="leon">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">León</h5>
+                  <p class="card-text">Conocido como el "rey de la selva", es un depredador social que vive en manadas, destacando por su fuerza y liderazgo. Su rugido, audible a kilómetros, simboliza pode.</p>
+                  <p>Los leones machos suelen tener una melena cuyo tamaño y color son indicadores de su salud y nivel de testosterona. Cuanto más oscura la melena, mayor es su atractivo para las hembras.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10  col-md-5 offset-1 offset-md-0 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/fauna/rinoceronte.webp" alt="rinoceronte">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Rinoceronte</h5>
+                  <p class="card-text">Animal robusto con un cuerpo protegido por una gruesa piel y característico por uno o dos cuernos, siendo un emblema de resistencia, aunque amenazado por la caza furtiva.
+                  </p>
+                  <p>A pesar de su peso y tamaño, los rinocerontes pueden alcanzar velocidades de hasta 55 km/h, mostrando una sorprendente agilidad al correr.</p>
+                </div>
+              </div>
+            </article>
+
+            <!-- Cards en horizontal, visibles a partir de pantallas large, inclusive. -->
+            <article class="c d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/fauna/bufalo.webp" class="card-img" alt="bufalo">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Búfalo</h5>
+                      <p class="card-text">Un herbívoro corpulento y social, famoso por su carácter impredecible y por formar grandes manadas que cooperan para defenderse de los depredadores.</p>
+                      <p>Su comportamiento cooperativo incluye "votaciones". Antes de moverse, las hembras de una manada se levantan y miran en la dirección en la que prefieren ir, decidiendo colectivamente su próximo destino.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Elefante</h5>
+                      <p class="card-text">El mamífero terrestre más grande del mundo, reconocido por su inteligencia, memoria y sus características orejas grandes en forma de mapa de África.</p>
+                      <p>Sus colmillos están compuestos de marfil y crecen durante toda su vida. Además, pueden usar su trompa, con más de 40,000 músculos, para realizar tareas delicadas como pelar frutas.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/imagenes/fauna/elefante.webp" class="card-img" alt="elefante">
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/fauna/leon.webp" class="card-img" alt="leon">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">León </h5>
+                      <p class="card-text">Conocido como el "rey de la selva", es un depredador social que vive en manadas, destacando por su fuerza y liderazgo. Su rugido, audible a kilómetros, simboliza pode.</p>
+                      <p>Los leones machos suelen tener una melena cuyo tamaño y color son indicadores de su salud y nivel de testosterona. Cuanto más oscura la melena, mayor es su atractivo para las hembras.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Rinoceronte</h5>
+                      <p class="card-text">Animal robusto con un cuerpo protegido por una gruesa piel y característico por uno o dos cuernos, siendo un emblema de resistencia, aunque amenazado por la caza furtiva.</p>
+                      <p>A pesar de su peso y tamaño, los rinocerontes pueden alcanzar velocidades de hasta 55 km/h, mostrando una sorprendente agilidad al correr.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/imagenes/fauna/rinoceronte.webp" class="card-img" alt="rinoceronte">
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+          
+          
+        </section>
+
+        <div class="col-8 offset-2  mt-5 mb-n5">
+          <hr>
+        </div>
+
+        <section id="tribus" class="col-12">
+          <div class="row">
+            <article  class="col-12 ">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="my-3 display-4 text-center mt-5 pt-5 macondo-regular">TRIBUS</h2>
+                </div>
+                <div class="col-12 col-xl-10 offset-xl-1 px-4 px-md-5 py-2 justif">
+                  <p>África, conocida como la cuna de la humanidad, es un continente rico en diversidad cultural y etnográfica. Hogar de miles de tribus, cada una con sus propias lenguas, costumbres y tradiciones, estas comunidades representan un mosaico vibrante de la historia y la identidad africanas. Desde los desiertos del Sahara hasta las selvas tropicales del Congo, las tribus africanas han desarrollado formas únicas de vida profundamente conectadas con su entorno, transmitiendo conocimientos ancestrales de generación en generación.
+  
+                    Más allá de sus prácticas cotidianas, las tribus africanas destacan por sus rituales, ceremonias y arte, que reflejan una relación íntima con la naturaleza, los ancestros y lo espiritual. A pesar de los desafíos de la modernidad y la globalización, estas comunidades continúan siendo guardianas de un patrimonio cultural invaluable, ofreciendo al mundo una visión de lo que significa vivir en armonía con las tradiciones y el entorno.</p>
+                </div>
+              </div>
+            </article>
+            <!-- Cards en vertical, visibles hasta el tamaño de tablet inclusive. -->
+            <article class="col-10 col-md-5 col-lg-4 offset-1 offset-md-1 d-lg-none ">
+              <div class="card bg-light  mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/tribus/trib1.webp" alt="trib1">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Diversidad lingüística y cultural</h5>
+                  <p class="card-text ">Las tribus africanas reflejan una asombrosa diversidad lingüística y cultural. Con más de 2,000 idiomas hablados en el continente, cada comunidad posee su propio sistema de comunicación y expresiones culturales. Estas lenguas van acompañadas de tradiciones únicas que incluyen música, danzas, vestimentas y formas de narrar historias, convirtiéndose en pilares de identidad y cohesión social.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 offset-1 offset-md-0 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/tribus/trib2.webp" alt="trib2">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Conexión espiritual y rituales ancestrales</h5>
+                  <p class="card-text">La espiritualidad juega un papel central en la vida de las tribus africanas. Muchas de ellas veneran a los ancestros como guías protectores y participan en rituales que fortalecen la conexión entre el mundo físico y espiritual. Estas ceremonias, a menudo acompañadas de música y danzas tradicionales, son fundamentales para marcar hitos como nacimientos, matrimonios o cambios de estación.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10  col-md-5 offset-1 offset-md-1 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/tribus/trib3.webp" alt="trib3">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Adaptación al entorno natural</h5>
+                  <p class="card-text">Cada tribu ha desarrollado formas de vida que se adaptan a su entorno geográfico. Desde los pastores nómadas que recorren los desiertos y sabanas, hasta las comunidades agrícolas que aprovechan las fértiles tierras tropicales, las tribus africanas destacan por su ingenio y sostenibilidad en el uso de los recursos naturales. Esta simbiosis con la naturaleza asegura su supervivencia y preserva los ecosistemas locales.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10  col-md-5 offset-1 offset-md-0 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/tribus/trib4.webp" alt="trib4">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Arte y símbolos como formas de expresión</h5>
+                  <p class="card-text">El arte tribal africano es mucho más que estética; es una forma de comunicación llena de simbolismo. Máscaras, esculturas, tejidos y pinturas corporales son utilizados no solo para expresar belleza, sino también para transmitir historias, valores y creencias. Cada pieza cuenta con un significado profundo, relacionado con la identidad de la tribu y su percepción del mundo.
+                </div>
+              </div>
+            </article>
+  
+            <!-- Cards en horizontal, visibles a partir de pantallas large, inclusive. -->
+             <article class="c d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/tribus/trib1.webp" class="card-img" alt="trib1">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Diversidad lingüística y cultural</h5>
+                      <p class="card-text">Las tribus africanas reflejan una asombrosa diversidad lingüística y cultural. Con más de 2,000 idiomas hablados en el continente, cada comunidad posee su propio sistema de comunicación y expresiones culturales. Estas lenguas van acompañadas de tradiciones únicas que incluyen música, danzas, vestimentas y formas de narrar historias, convirtiéndose en pilares de identidad y cohesión social.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Conexión espiritual y rituales ancestrales</h5>
+                      <p class="card-text">La espiritualidad juega un papel central en la vida de las tribus africanas. Muchas de ellas veneran a los ancestros como guías protectores y participan en rituales que fortalecen la conexión entre el mundo físico y espiritual. Estas ceremonias, a menudo acompañadas de música y danzas tradicionales, son fundamentales para marcar hitos como nacimientos, matrimonios o cambios de estación.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/imagenes/tribus/trib2.webp" class="card-img" alt="trib2">
+                  </div>
+                </div>
+              </div>
+            </article>
+  
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/tribus/trib3.webp" class="card-img" alt="trib3">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Adaptación al entorno natural </h5>
+                      <p class="card-text">Cada tribu ha desarrollado formas de vida que se adaptan a su entorno geográfico. Desde los pastores nómadas que recorren los desiertos y sabanas, hasta las comunidades agrícolas que aprovechan las fértiles tierras tropicales, las tribus africanas destacan por su ingenio y sostenibilidad en el uso de los recursos naturales. Esta simbiosis con la naturaleza asegura su supervivencia y preserva los ecosistemas locales.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+  
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Arte y símbolos como formas de expresión</h5>
+                      <p class="card-text">El arte tribal africano es mucho más que estética; es una forma de comunicación llena de simbolismo. Máscaras, esculturas, tejidos y pinturas corporales son utilizados no solo para expresar belleza, sino también para transmitir historias, valores y creencias. Cada pieza cuenta con un significado profundo, relacionado con la identidad de la tribu y su percepción del mundo.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/imagenes/tribus/trib4.webp" class="card-img" alt="trib4">
+                  </div>
+                </div>
+              </div>
+            </article>
+
+          </div>
+          
+        </section>
+
+        <div class="col-8 offset-2  mt-5 mb-n5">
+          <hr>
+        </div>
+
+        <section id="safaris" class="col-12">
+          <div class="row">
+            <article  class="col-12 ">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="my-3 display-4 text-center mt-5 pt-5 macondo-regular">SAFARIS</h2>
+                </div>
+                <div class="col-12 col-xl-10 offset-xl-1 px-4 px-md-5 py-2 justif">
+                  <p>África es una tierra de contrastes, hogar de paisajes impresionantes y una riqueza natural incomparable. En nuestros safaris, tendrás la oportunidad de vivir momentos únicos rodeado de fauna salvaje, cielos infinitos y la auténtica magia de la naturaleza. Diseñamos experiencias para que cada viajero encuentre su conexión con el corazón de África, ya sea caminando por senderos, navegando en tranquilas aguas o recorriendo majestuosas llanuras. Descubre nuestros tipos de safari y prepárate para una aventura inolvidable.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 col-lg-4 offset-1 offset-md-1 d-lg-none ">
+              <div class="card bg-light  mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/safaris/safpie.webp" alt="safpie">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Safari a pie</h5>
+                  <p class="card-text ">Para los que buscan una experiencia auténtica y cercana, el safari a pie ofrece una forma única de explorar África. Acompañado por guías expertos, caminarás por senderos naturales en parques como Mana Pools o el Serengeti, descubriendo detalles que a menudo pasan desapercibidos. Podrás observar la flora, rastrear huellas y escuchar el canto de aves exóticas, todo mientras sientes la tierra bajo tus pies y la naturaleza vibrando a tu alrededor.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-md-5 offset-1 offset-md-0 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/safaris/safcoche.webp" alt="safcoche">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4">Safari en coche</h5>
+                  <p class="card-text">El clásico safari en coche combina comodidad y emoción, permitiéndote recorrer las emblemáticas sabanas africanas en busca de los “Cinco Grandes”. A bordo de vehículos todo terreno, viajarás a través del Parque Nacional Kruger, el Masái Mara o el Serengeti, acercándote a leones, elefantes, jirafas y mucho más. Nuestros guías se asegurarán de que no te pierdas ni un instante de la acción mientras te sumerges en la grandeza de la vida salvaje africana.</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10  col-md-6 offset-1 offset-md-3 d-lg-none">
+              <div class="card bg-light mx-auto my-3" >
+                <img class="card-img-top" src="/imagenes/safaris/safagua.webp" alt="safagua">
+                <div class="card-body justif">
+                  <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Safari en barca</h5>
+                  <p class="card-text">El safari en barca es perfecto para los amantes del agua y la tranquilidad. Navega por el delta del Okavango en Botsuana o los canales del río Zambezi, rodeado de hipopótamos, cocodrilos y aves de colores vibrantes. A bordo de una barca tradicional o moderna, disfrutarás de vistas únicas mientras los reflejos del sol iluminan los paisajes acuáticos. Este tipo de safari te muestra África desde una perspectiva diferente, ideal para los que buscan serenidad y asombro.</p>
+                </div>
+              </div>
+            </article>
+  
+            <!-- Cards en horizontal, visibles a partir de pantallas large, inclusive. -->
+             <article class="c d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3">
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/safaris/safpie.webp" class="card-img" alt="safpie">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Safari a pie</h5>
+                      <p class="card-text">Para los que buscan una experiencia auténtica y cercana, el safari a pie ofrece una forma única de explorar África. Acompañado por guías expertos, caminarás por senderos naturales en parques como Mana Pools o el Serengeti, descubriendo detalles que a menudo pasan desapercibidos. Podrás observar la flora, rastrear huellas y escuchar el canto de aves exóticas, todo mientras sientes la tierra bajo tus pies y la naturaleza vibrando a tu alrededor.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Safari en coche</h5>
+                      <p class="card-text">El clásico safari en coche combina comodidad y emoción, permitiéndote recorrer las emblemáticas sabanas africanas en busca de los “Cinco Grandes”. A bordo de vehículos todo terreno, viajarás a través del Parque Nacional Kruger, el Masái Mara o el Serengeti, acercándote a leones, elefantes, jirafas y mucho más. Nuestros guías se asegurarán de que no te pierdas ni un instante de la acción mientras te sumerges en la grandeza de la vida salvaje africana.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img src="/imagenes/safaris/safcoche.webp" class="card-img" alt="safcoche">
+                  </div>
+                </div>
+              </div>
+            </article>
+            <article class="d-none d-lg-block col-10 offset-1">
+              <div class="card bg-light mb-3" >
+                <div class="row no-gutters">
+                  <div class="col-md-6">
+                    <img src="/imagenes/safaris/safagua.webp" class="card-img" alt="safagua">
+                  </div>
+                  <div class="col-md-6">
+                    <div class="card-body justif">
+                      <h5 class="card-title text-center mb-4 macondo-regular-p font-weight-bold">Safari en barca </h5>
+                      <p class="card-text">El safari en barca es perfecto para los amantes del agua y la tranquilidad. Navega por el delta del Okavango en Botsuana o los canales del río Zambezi, rodeado de hipopótamos, cocodrilos y aves de colores vibrantes. A bordo de una barca tradicional o moderna, disfrutarás de vistas únicas mientras los reflejos del sol iluminan los paisajes acuáticos. Este tipo de safari te muestra África desde una perspectiva diferente, ideal para los que buscan serenidad y asombro.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </article>
+          </div>
+          
+        </section>
+
+        <div class="col-8 offset-2  mt-5 mb-n5">
+          <hr>
+        </div>
+
+        <section id="viajes" class="col-12">
+          <div class="row">
+            <article  class="col-12 ">
+              <div class="row">
+                <div class="col-12">
+                  <h2 class="my-3 display-4 text-center mt-5 pt-5 macondo-regular ">VIAJES</h2>
+                </div>
+                <div class="col-12 col-xl-10 offset-xl-1 px-4 px-md-5 py-2 justif">
+                  <p class="text-center">El África que siempre soñaste te espera, ya sea en la cima de sus montañas, en las profundidades de sus ríos o en el corazón de su cultura. </p>
+                  <p class="text-center my-5">¡Elige tu camino y embárcate en la aventura de tu vida!</p>
+                </div>
+              </div>
+            </article>
+            <article class="col-10 col-xl-8 offset-1 offset-xl-2">
+              <table class="table table-striped">
+                <thead>
+                  <tr class="macondo-regular-p let-encoj font-weight-bold">
+                    <th class="d-none d-md-block " scope="col">Nombre</th>
+                    <th scope="col">Lugar</th>
+                    <th scope="col">Precio</th>
+                    <th class="d-none d-sm-block" scope="col">Hotel</th>
+                    <th  scope="col">Personas</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="letra-com let-encoj">
+                    <td class="d-none d-md-block">Explorador</td>
+                    <td>Sabanas</td>
+                    <td>950€</td>
+                    <td class="d-none d-sm-block">No Inc</td>
+                    <td>1 pax</td>
+                  </tr>
+                  <tr class="letra-com let-encoj">
+                    <td class="d-none d-md-block">Montañero</td>
+                    <td>Kilimanjaro</td>
+                    <td>1200€</td>
+                    <td class="d-none d-sm-block">No Inc</td>
+                    <td>1 pax  </td>
+                  </tr>
+                  <tr class="letra-com let-encoj">
+                    <td class="d-none d-md-block">Descubridor</td>
+                    <td>Namibia</td>
+                    <td >6300€</td>
+                    <td class="d-none d-sm-block">6d/7n</td>
+                    <td>2 pax</td>
+                  </tr>
+                  <tr class="letra-com let-encoj">
+                    <td class="d-none d-md-block">Navegante </td>
+                    <td>Delta del Okavango</td>
+                    <td>5500€</td>
+                    <td class="d-none d-sm-block">5d/6n</td>
+                    <td>2 pax</td>
+                  </tr>
+                  <tr class="letra-com let-encoj">
+                    <td class="d-none d-md-block">Fotógrafo </td>
+                    <td>Sahara</td>
+                    <td>9300€</td>
+                    <td class="d-none d-sm-block">10d/11n</td>
+                    <td>2 pax</td>
+                  </tr>
+                </tbody>
+              </table>
+            </article>
+          </div>
+        </section>
+      </main>
+      <footer class="row mt-5">
+        <div class="col-12 px-0 mt-5">
+          <div class="text-center bg-dark text-white">
+            <div class="py-5">
+              <p class="letra-com pt-3">©2025 - DIW05 Tarea - Sergio Paco Gómez</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+</body>
+</html>

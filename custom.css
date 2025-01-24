@@ -1,0 +1,224 @@
+body{
+    background-color: whitesmoke;
+}
+
+.bienvenida{
+    background: url(imagenes/fondo-bienvenidos.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+body, html { overflow-x: clip; } 
+
+
+
+/* Botones e inputs*/
+
+#btn-explorar{
+    background-color: darkred;
+    color: whitesmoke;
+}
+
+#btn-explorar:hover{
+    background-color: darkgreen;
+    border:1px solid green;
+}
+
+#btn-buscar{
+    background-color: darkgreen;
+    color: whitesmoke;
+}
+
+#btn-buscar:hover{
+    background-color: darkred;
+}
+
+#inputSearch:focus{
+    box-shadow: 0px 0px 7px darkgreen;
+}
+
+
+/* Fuentes */
+
+.macondo-regular {
+    font-family: "Macondo", serif;
+    font-weight: 600;
+    font-style: normal;
+}
+  
+.macondo-regular-p{
+    font-family: "Macondo", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+  }
+
+p{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style:normal;
+}
+
+.letra-com{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style:normal;
+    font-size: 1.9em;
+}
+
+.fuente-grande{
+    font-size: 3em;
+}
+
+.fuente-mediana{
+    font-size: 1.2em;
+}
+
+.justif{
+    text-align: justify;
+}
+
+.letraVerde{
+    color: darkgreen;
+}
+
+.letraRoja{
+    color: darkred;
+}
+
+.letra-bienV{
+    color: whitesmoke;
+    text-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.let-encoj{
+    font-size: 0.9em;
+}
+
+
+/* Barra de navegación */
+
+nav{
+    min-height: 10px;
+    background-color: #ffebcd;
+}
+
+.dropdown-menu{
+    background-color :#ffebcd ;
+}
+
+
+
+/* Otros elementos */
+
+hr{
+    background-color: black;
+    opacity: 0.3;
+}
+
+
+/* Media Queries */
+
+
+
+
+@media screen and (min-width:368px) {
+    
+
+    #enlace-marca{
+        display: block !important;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .fuente-grande{
+        font-size: 6em;
+    }
+
+    .fuente-mediana{
+        font-size: 1.7em;
+    }
+
+    .let-encoj{
+        font-size: 1.5em;
+    }
+
+
+
+    #enlace-marca{
+        display: none !important;
+    }
+    
+
+
+}
+
+@media screen and (min-width:1024px) {
+    .fuente-grande{
+        font-size: 8em;
+    }
+
+    .fuente-mediana{
+        font-size: 2em;
+    }
+
+    .margen-boton-bienvenida{
+        margin-top: -60px;
+    }
+
+}
+
+@media screen and (min-width:1440px) {
+    .fuente-grande{
+        font-size: 9em;
+    }
+
+    .fuente-mediana{
+        font-size: 2.7em;
+    }
+
+    .margen-boton-bienvenida{
+        margin-top: -80px;
+    }
+}
+
+
+@media screen and (min-width:2560px) {
+    .fuente-grande{
+        font-size: 11em;
+    }
+
+    .fuente-mediana{
+        font-size: 4em;
+    }
+
+    .margen-boton-bienvenida{
+        margin-top: 100px;
+    }
+
+}
+
+@media screen and (min-width:3840px) {
+    .fuente-grande{
+        font-size: 14em;
+    }
+
+    .fuente-mediana{
+        font-size: 5em;
+    }
+
+    .margen-boton-bienvenida{
+        margin-top: 160px;
+    }
+
+}
